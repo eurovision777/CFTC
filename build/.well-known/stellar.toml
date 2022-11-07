@@ -1,28 +1,27 @@
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
-"GBQG6UWWCQKFRVBXP4CKQPXCUTLIQEM4IYM2VALK5GYLQTU6QTQQ6BTQ"
+"GCQC77T2W4ENHDNZJZDZJVAU3MWYJQYS35DKAEZDWG2646Y4WKHVECMS"
 ]
 VERSION="2.0.0"
 
 [DOCUMENTATION]
-ORG_NAME="Gemsociety"
-ORG_URL="https://www.gemsociety.org"
-ORG_DESCRIPTION="The American Gem Society (AGS) is a nonprofit trade association of fine jewelry professionals dedicated to setting, maintaining and promoting the highest standards of ethical conduct and professional behavior through education, accreditation, recertification of its membership"
-ORG_TWITTER="@GEMSOCIETY"
-ORG_LOGO="https://i.ibb.co/mTsHNPf/71-OLPFh153-L-AC-UL1500.jpg"
-ORG_OFFICIAL_EMAIL="gemsociety@gmail.com"
+ORG_NAME="Commodity Futures Trading Commission"
+ORG_URL="http://projectcftc.com"
+ORG_DESCRIPTION="The Commodity Futures Trading Commission is an independent U.S. government agency that regulates the U.S. derivatives markets, including futures, options, and swaps"
+ORG_TWITTER="@CFTC"
+ORG_LOGO="https://i.ibb.co/QY1rQM5/CFTC.jpg"
+ORG_OFFICIAL_EMAIL="support@cftc.org"
 
 
 [[CURRENCIES]]
-code="PearlGem"
-issuer="GBQG6UWWCQKFRVBXP4CKQPXCUTLIQEM4IYM2VALK5GYLQTU6QTQQ6BTQ"
-anchor_asset="false"
-name="Pearl Gemstone"
-desc="Pearls rank among the most popular gems in the world. ... While these others form as minerals underground, pearls have organic origins. They form within various species of freshwater and saltwater mollusks"
-conditions="Pearl prices can range from less than $1 to $100,000s- depending on the type, size, quality, luster, color and shape."
-image="https://i.ibb.co/mTsHNPf/71-OLPFh153-L-AC-UL1500.jpg"
-fixed_number=10000000
-max_number=10000000
+code="CFTC"
+issuer="GCQC77T2W4ENHDNZJZDZJVAU3MWYJQYS35DKAEZDWG2646Y4WKHVECMS"
+anchor_asset="CFTC"
+name="CFTC"
+desc="The mission of the Commodity Futures Trading Commission is to promote the integrity, resilience, and vibrancy of the U.S. derivatives markets through sound regulation."
+image="https://i.ibb.co/QY1rQM5/CFTC.jpg"
+fixed_number=1000000000
+max_number=1000000000
 is_unlimited=false
-#PearlGem was issued using the open and inclusive Stellar blockchain network.
+#CFTC was issued using the open and inclusive Stellar blockchain network.
